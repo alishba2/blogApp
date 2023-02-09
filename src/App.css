@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+.post{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: 100px 0px 100px;
+  position: absolute;
+  
+}
+.card{
+  /* height: 400px; */
+  width: 400px;
+  height: 300px;
+  text-align: justify;  
+}
+
+.MuiTableRow-root:last-child td{
+  text-align: justify;
+}
+
+.comments{
+  position: absolute;
+}
+
+.MuiCardContent-root:last-child{
+  position: absolute;
+  background-color: black;
+  color: 'white';
+  z-index: 1;
+  width: 400px;
+}
+
+.MuiTableRow-root:last-child td{
+  background: black;
+  color: white;
+}
+
+.MuiTableCell-root{
+  /* background-color: black; */
+  color:white
+}
+.MuiTableRow-root:last-child th{
+  color:white;
+  background-color: black;
+}
+.link{
+  text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
